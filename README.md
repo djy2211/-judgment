@@ -29,6 +29,7 @@ facts 의 내용에 따라 어느 당사자가 이겼는지 맞출 수 있도록
 # try1 
 
 TfidfVectorizer 사용
+
 MultinomialNB 모델 생성하여 predict 적용
 
 Accuracy: 0.65
@@ -36,12 +37,17 @@ Accuracy: 0.65
 # try2
 
 CountVectorizer 사용
+
 first_party
+
 second_party
+
 에 해당하는 당사자들을 one-hot 인코딩 적용
+
 MultinomialNB 모델 생성
 
 Training Accuracy: 0.9757820383451059
+
 Test Accuracy: 0.6149193548387096
 
 ![19aff05b-7990-4dae-bc29-e885afdea5e4](https://github.com/djy2211/-judgment/assets/131187694/ab0148e1-1430-4294-b454-75756200d09c)
@@ -49,6 +55,7 @@ Test Accuracy: 0.6149193548387096
 # try3
 
 BERT 토크나이저 사용
+
 Accuracy: 0.65
 
 ***
