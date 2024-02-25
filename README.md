@@ -1,7 +1,8 @@
-# -judgment
+# judgment
 
 
 https://dacon.io/competitions/official/236112/overview/description
+
 월간 데이콘 법원 판결 예측 AI 경진대회
 
 
