@@ -4,18 +4,23 @@
 https://dacon.io/competitions/official/236112/overview/description
 월간 데이콘 법원 판결 예측 AI 경진대회
 
-*
-*
-*
 
-Train 컬럼
+*Train 컬럼
+
 ID	
+
 first_party	
+
 second_party	
+
 facts	
+
 first_party_winner
 
+
+
 first_party_winner > Bool 타입
+
 나머지는 텍스트, 비정형 데이터
 
 facts 의 내용에 따라 어느 당사자가 이겼는지 맞출 수 있도록 모델을 사용해야 함.
